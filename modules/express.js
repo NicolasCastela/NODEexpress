@@ -20,6 +20,7 @@ app.get('/users', (_, res) => {
   ];
   JSON.stringify(users)
   res.status(200).send(users)
+
 });
 
 app.post('/users', async (req, res) => {
